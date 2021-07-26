@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1086828165558",
+    "project_id": "seno-bookstore",
+    "storage_bucket": "seno-bookstore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086828165558:android:917a0c5ab0e6fa375fa917",
+        "android_client_info": {
+          "package_name": "com.fathsbs.senobookstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086828165558-dgudvo93ksbrdue1ipqmr3sfs3k9g5iq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg9nkGWhnoJEWgDCvKjFUTe1yGaQphjqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086828165558-dgudvo93ksbrdue1ipqmr3sfs3k9g5iq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
