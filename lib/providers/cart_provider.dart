@@ -41,6 +41,7 @@ class CartProvider with ChangeNotifier {
 
   reduceQuantity(int id) {
     _carts[id].quantity = _carts[id].quantity! - 1;
+
     if (_carts[id].quantity == 0) {
       _carts.removeAt(id);
     }

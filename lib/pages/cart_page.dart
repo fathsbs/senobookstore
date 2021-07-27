@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:senobookstore/providers/cart_provider.dart';
+import 'package:senobookstore/providers/page_provider.dart';
 import 'package:senobookstore/theme.dart';
 import 'package:senobookstore/widgets/cart_card.dart';
 
@@ -8,6 +9,7 @@ class CartPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     CartProvider cartProvider = Provider.of<CartProvider>(context);
+    PageProvider pageProvider = Provider.of<PageProvider>(context);
 
     PreferredSizeWidget header() {
       return AppBar(
@@ -60,8 +62,8 @@ class CartPage extends StatelessWidget {
                   ),
                 ),
                 onPressed: () {
-                  Navigator.pushNamedAndRemoveUntil(
-                      context, '/home', (route) => false);
+                  pageProvider.currentIndex=0;
+                  Navigator.pushNamedAndRemoveUntil(context, '/home', (route) => false);
                 },
                 child: Text(
                   'Explore Store',

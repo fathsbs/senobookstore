@@ -7,6 +7,7 @@ import 'package:senobookstore/pages/cart_page.dart';
 import 'package:senobookstore/pages/checkout_page.dart';
 import 'package:senobookstore/pages/checkout_succes_page.dart';
 import 'package:senobookstore/pages/edit_profile_page.dart';
+import 'package:senobookstore/pages/help_page.dart';
 
 import 'package:senobookstore/pages/sign_in_page.dart';
 import 'package:senobookstore/pages/sign_up_page.dart';
@@ -60,6 +61,7 @@ class MyApp extends StatelessWidget {
           
           '/edit-profile': (context) => EditProfilePage(),
           '/about': (context) => AboutPage(),
+          '/help': (context) => HelpPage(),
           
           '/cart': (context) => CartPage(),
           '/checkout': (context) => CheckoutPage(),

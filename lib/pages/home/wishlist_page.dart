@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:senobookstore/models/product_model.dart';
 import 'package:senobookstore/providers/page_provider.dart';
 import 'package:senobookstore/providers/wishlist_provider.dart';
 import 'package:senobookstore/theme.dart';
 import 'package:senobookstore/widgets/wishlist_card.dart';
 
 class WishlistPage extends StatelessWidget {
+  
   @override
   Widget build(BuildContext context) {
     PageProvider pageProvider = Provider.of<PageProvider>(context);

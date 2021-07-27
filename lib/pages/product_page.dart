@@ -119,22 +119,6 @@ class _ProductPageState extends State<ProductPage> {
       );
     }
 
-    Widget familiarBooksCard(String imageUrl) {
-      return Container(
-        width: 54,
-        height: 54,
-        margin: EdgeInsets.only(
-          right: 16,
-        ),
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage(imageUrl),
-          ),
-          borderRadius: BorderRadius.circular(6),
-        ),
-      );
-    }
-
     Widget header() {
       int index = -1;
 

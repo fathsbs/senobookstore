@@ -120,8 +120,13 @@ class ProfilePage extends StatelessWidget {
               // menuItem(
               //   'Your Orders',
               // ),
-              menuItem(
-                'Help',
+              GestureDetector(
+                onTap: (){
+                  Navigator.pushNamed(context, '/help');
+                },
+                child: menuItem(
+                  'Help',
+                ),
               ),
               SizedBox(height: 30),
               Text(
